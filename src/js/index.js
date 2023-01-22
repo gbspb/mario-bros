@@ -5,7 +5,7 @@ const botaoFecharModal = document.querySelector('.fechar-modal');
 const linkDoVideo = video.src;
 
 function alternarModal() {
-  modal.classList.toggle('.aberto');
+  modal.classList.toggle('aberto');
 }
 
 botaoTrailer.addEventListener('click', () => {
