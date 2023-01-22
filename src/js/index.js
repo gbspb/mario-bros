@@ -1,11 +1,11 @@
 const botaoTrailer = document.querySelector('.botao-trailer');
-const video = document.getElementById('video');
+const video = document.getElementById('.video');
 const modal = document.querySelector('.modal');
 const botaoFecharModal = document.querySelector('.fechar-modal');
 const linkDoVideo = video.src;
 
 function alternarModal() {
-  modal.classList.toggle('aberto');
+  modal.classList.toggle('.aberto');
 }
 
 botaoTrailer.addEventListener('click', () => {
